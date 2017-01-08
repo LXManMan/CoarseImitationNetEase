@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7725387F1E1F3D9D00AC4F1A /* LXSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7725387E1E1F3D9D00AC4F1A /* LXSegmentControl.m */; };
+		779C34AB1E1E445E0079EBDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 779C34AA1E1E445E0079EBDA /* main.m */; };
+		779C34AE1E1E445E0079EBDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 779C34AD1E1E445E0079EBDA /* AppDelegate.m */; };
+		779C34B11E1E445E0079EBDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 779C34B01E1E445E0079EBDA /* ViewController.m */; };
+		779C34B41E1E445E0079EBDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779C34B21E1E445E0079EBDA /* Main.storyboard */; };
+		779C34B61E1E445E0079EBDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 779C34B51E1E445E0079EBDA /* Assets.xcassets */; };
+		779C34B91E1E445E0079EBDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779C34B71E1E445E0079EBDA /* LaunchScreen.storyboard */; };
+		779C34C41E1E445E0079EBDA /* CoarseImitationNetEaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 779C34C31E1E445E0079EBDA /* CoarseImitationNetEaseTests.m */; };
+		779C34CF1E1E445E0079EBDA /* CoarseImitationNetEaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 779C34CE1E1E445E0079EBDA /* CoarseImitationNetEaseUITests.m */; };
+		779C34E71E1E49400079EBDA /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 779C34E51E1E49400079EBDA /* UIView+Frame.m */; };
+		779C34EA1E1E4EEC0079EBDA /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 779C34E91E1E4EEC0079EBDA /* NSString+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		779C34C01E1E445E0079EBDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 779C349E1E1E445E0079EBDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 779C34A51E1E445E0079EBDA;
+			remoteInfo = CoarseImitationNetEase;
+		};
+		779C34CB1E1E445E0079EBDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 779C349E1E1E445E0079EBDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 779C34A51E1E445E0079EBDA;
+			remoteInfo = CoarseImitationNetEase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7725387D1E1F3D9D00AC4F1A /* LXSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXSegmentControl.h; sourceTree = "<group>"; };
+		7725387E1E1F3D9D00AC4F1A /* LXSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXSegmentControl.m; sourceTree = "<group>"; };
+		779C34A61E1E445E0079EBDA /* CoarseImitationNetEase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoarseImitationNetEase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		779C34AA1E1E445E0079EBDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		779C34AC1E1E445E0079EBDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		779C34AD1E1E445E0079EBDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		779C34AF1E1E445E0079EBDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		779C34B01E1E445E0079EBDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		779C34B31E1E445E0079EBDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		779C34B51E1E445E0079EBDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		779C34B81E1E445E0079EBDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		779C34BA1E1E445E0079EBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779C34BF1E1E445E0079EBDA /* CoarseImitationNetEaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoarseImitationNetEaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		779C34C31E1E445E0079EBDA /* CoarseImitationNetEaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoarseImitationNetEaseTests.m; sourceTree = "<group>"; };
+		779C34C51E1E445E0079EBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779C34CA1E1E445E0079EBDA /* CoarseImitationNetEaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoarseImitationNetEaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		779C34CE1E1E445E0079EBDA /* CoarseImitationNetEaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoarseImitationNetEaseUITests.m; sourceTree = "<group>"; };
+		779C34D01E1E445E0079EBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779C34DC1E1E446D0079EBDA /* LX.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LX.pch; sourceTree = "<group>"; };
+		779C34E41E1E49400079EBDA /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		779C34E51E1E49400079EBDA /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		779C34E81E1E4EEC0079EBDA /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		779C34E91E1E4EEC0079EBDA /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		779C34A31E1E445E0079EBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779C34BC1E1E445E0079EBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779C34C71E1E445E0079EBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		772538801E1F711500AC4F1A /* ChildeVc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ChildeVc;
+			sourceTree = "<group>";
+		};
+		779C349D1E1E445E0079EBDA = {
+			isa = PBXGroup;
+			children = (
+				779C34A81E1E445E0079EBDA /* CoarseImitationNetEase */,
+				779C34C21E1E445E0079EBDA /* CoarseImitationNetEaseTests */,
+				779C34CD1E1E445E0079EBDA /* CoarseImitationNetEaseUITests */,
+				779C34A71E1E445E0079EBDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		779C34A71E1E445E0079EBDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				779C34A61E1E445E0079EBDA /* CoarseImitationNetEase.app */,
+				779C34BF1E1E445E0079EBDA /* CoarseImitationNetEaseTests.xctest */,
+				779C34CA1E1E445E0079EBDA /* CoarseImitationNetEaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		779C34A81E1E445E0079EBDA /* CoarseImitationNetEase */ = {
+			isa = PBXGroup;
+			children = (
+				779C34DD1E1E44AD0079EBDA /* LXSegmentControl */,
+				779C34AC1E1E445E0079EBDA /* AppDelegate.h */,
+				779C34AD1E1E445E0079EBDA /* AppDelegate.m */,
+				779C34AF1E1E445E0079EBDA /* ViewController.h */,
+				779C34B01E1E445E0079EBDA /* ViewController.m */,
+				772538801E1F711500AC4F1A /* ChildeVc */,
+				779C34B21E1E445E0079EBDA /* Main.storyboard */,
+				779C34B51E1E445E0079EBDA /* Assets.xcassets */,
+				779C34B71E1E445E0079EBDA /* LaunchScreen.storyboard */,
+				779C34BA1E1E445E0079EBDA /* Info.plist */,
+				779C34DC1E1E446D0079EBDA /* LX.pch */,
+				779C34A91E1E445E0079EBDA /* Supporting Files */,
+			);
+			path = CoarseImitationNetEase;
+			sourceTree = "<group>";
+		};
+		779C34A91E1E445E0079EBDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				779C34AA1E1E445E0079EBDA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		779C34C21E1E445E0079EBDA /* CoarseImitationNetEaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				779C34C31E1E445E0079EBDA /* CoarseImitationNetEaseTests.m */,
+				779C34C51E1E445E0079EBDA /* Info.plist */,
+			);
+			path = CoarseImitationNetEaseTests;
+			sourceTree = "<group>";
+		};
+		779C34CD1E1E445E0079EBDA /* CoarseImitationNetEaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				779C34CE1E1E445E0079EBDA /* CoarseImitationNetEaseUITests.m */,
+				779C34D01E1E445E0079EBDA /* Info.plist */,
+			);
+			path = CoarseImitationNetEaseUITests;
+			sourceTree = "<group>";
+		};
+		779C34DD1E1E44AD0079EBDA /* LXSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				779C34E11E1E49360079EBDA /* LXCategory */,
+				7725387D1E1F3D9D00AC4F1A /* LXSegmentControl.h */,
+				7725387E1E1F3D9D00AC4F1A /* LXSegmentControl.m */,
+			);
+			path = LXSegmentControl;
+			sourceTree = "<group>";
+		};
+		779C34E11E1E49360079EBDA /* LXCategory */ = {
+			isa = PBXGroup;
+			children = (
+				779C34E81E1E4EEC0079EBDA /* NSString+Extension.h */,
+				779C34E91E1E4EEC0079EBDA /* NSString+Extension.m */,
+				779C34E41E1E49400079EBDA /* UIView+Frame.h */,
+				779C34E51E1E49400079EBDA /* UIView+Frame.m */,
+			);
+			path = LXCategory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		779C34A51E1E445E0079EBDA /* CoarseImitationNetEase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779C34D31E1E445E0079EBDA /* Build configuration list for PBXNativeTarget "CoarseImitationNetEase" */;
+			buildPhases = (
+				779C34A21E1E445E0079EBDA /* Sources */,
+				779C34A31E1E445E0079EBDA /* Frameworks */,
+				779C34A41E1E445E0079EBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoarseImitationNetEase;
+			productName = CoarseImitationNetEase;
+			productReference = 779C34A61E1E445E0079EBDA /* CoarseImitationNetEase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		779C34BE1E1E445E0079EBDA /* CoarseImitationNetEaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779C34D61E1E445E0079EBDA /* Build configuration list for PBXNativeTarget "CoarseImitationNetEaseTests" */;
+			buildPhases = (
+				779C34BB1E1E445E0079EBDA /* Sources */,
+				779C34BC1E1E445E0079EBDA /* Frameworks */,
+				779C34BD1E1E445E0079EBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				779C34C11E1E445E0079EBDA /* PBXTargetDependency */,
+			);
+			name = CoarseImitationNetEaseTests;
+			productName = CoarseImitationNetEaseTests;
+			productReference = 779C34BF1E1E445E0079EBDA /* CoarseImitationNetEaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		779C34C91E1E445E0079EBDA /* CoarseImitationNetEaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779C34D91E1E445E0079EBDA /* Build configuration list for PBXNativeTarget "CoarseImitationNetEaseUITests" */;
+			buildPhases = (
+				779C34C61E1E445E0079EBDA /* Sources */,
+				779C34C71E1E445E0079EBDA /* Frameworks */,
+				779C34C81E1E445E0079EBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				779C34CC1E1E445E0079EBDA /* PBXTargetDependency */,
+			);
+			name = CoarseImitationNetEaseUITests;
+			productName = CoarseImitationNetEaseUITests;
+			productReference = 779C34CA1E1E445E0079EBDA /* CoarseImitationNetEaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		779C349E1E1E445E0079EBDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "漫漫";
+				TargetAttributes = {
+					779C34A51E1E445E0079EBDA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YQSV9JS5Z8;
+						ProvisioningStyle = Automatic;
+					};
+					779C34BE1E1E445E0079EBDA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YQSV9JS5Z8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 779C34A51E1E445E0079EBDA;
+					};
+					779C34C91E1E445E0079EBDA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YQSV9JS5Z8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 779C34A51E1E445E0079EBDA;
+					};
+				};
+			};
+			buildConfigurationList = 779C34A11E1E445E0079EBDA /* Build configuration list for PBXProject "CoarseImitationNetEase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 779C349D1E1E445E0079EBDA;
+			productRefGroup = 779C34A71E1E445E0079EBDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				779C34A51E1E445E0079EBDA /* CoarseImitationNetEase */,
+				779C34BE1E1E445E0079EBDA /* CoarseImitationNetEaseTests */,
+				779C34C91E1E445E0079EBDA /* CoarseImitationNetEaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		779C34A41E1E445E0079EBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779C34B91E1E445E0079EBDA /* LaunchScreen.storyboard in Resources */,
+				779C34B61E1E445E0079EBDA /* Assets.xcassets in Resources */,
+				779C34B41E1E445E0079EBDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779C34BD1E1E445E0079EBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779C34C81E1E445E0079EBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		779C34A21E1E445E0079EBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779C34E71E1E49400079EBDA /* UIView+Frame.m in Sources */,
+				779C34B11E1E445E0079EBDA /* ViewController.m in Sources */,
+				779C34AE1E1E445E0079EBDA /* AppDelegate.m in Sources */,
+				779C34AB1E1E445E0079EBDA /* main.m in Sources */,
+				7725387F1E1F3D9D00AC4F1A /* LXSegmentControl.m in Sources */,
+				779C34EA1E1E4EEC0079EBDA /* NSString+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779C34BB1E1E445E0079EBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779C34C41E1E445E0079EBDA /* CoarseImitationNetEaseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779C34C61E1E445E0079EBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779C34CF1E1E445E0079EBDA /* CoarseImitationNetEaseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		779C34C11E1E445E0079EBDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 779C34A51E1E445E0079EBDA /* CoarseImitationNetEase */;
+			targetProxy = 779C34C01E1E445E0079EBDA /* PBXContainerItemProxy */;
+		};
+		779C34CC1E1E445E0079EBDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 779C34A51E1E445E0079EBDA /* CoarseImitationNetEase */;
+			targetProxy = 779C34CB1E1E445E0079EBDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		779C34B21E1E445E0079EBDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				779C34B31E1E445E0079EBDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		779C34B71E1E445E0079EBDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				779C34B81E1E445E0079EBDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		779C34D11E1E445E0079EBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		779C34D21E1E445E0079EBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		779C34D41E1E445E0079EBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CoarseImitationNetEase/LX.pch";
+				INFOPLIST_FILE = CoarseImitationNetEase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miss.liuxinxin.CoarseImitationNetEase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		779C34D51E1E445E0079EBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CoarseImitationNetEase/LX.pch";
+				INFOPLIST_FILE = CoarseImitationNetEase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miss.liuxinxin.CoarseImitationNetEase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		779C34D71E1E445E0079EBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				INFOPLIST_FILE = CoarseImitationNetEaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miss.liuxinxin.CoarseImitationNetEaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoarseImitationNetEase.app/CoarseImitationNetEase";
+			};
+			name = Debug;
+		};
+		779C34D81E1E445E0079EBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				INFOPLIST_FILE = CoarseImitationNetEaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miss.liuxinxin.CoarseImitationNetEaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoarseImitationNetEase.app/CoarseImitationNetEase";
+			};
+			name = Release;
+		};
+		779C34DA1E1E445E0079EBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				INFOPLIST_FILE = CoarseImitationNetEaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miss.liuxinxin.CoarseImitationNetEaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoarseImitationNetEase;
+			};
+			name = Debug;
+		};
+		779C34DB1E1E445E0079EBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				INFOPLIST_FILE = CoarseImitationNetEaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miss.liuxinxin.CoarseImitationNetEaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoarseImitationNetEase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		779C34A11E1E445E0079EBDA /* Build configuration list for PBXProject "CoarseImitationNetEase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779C34D11E1E445E0079EBDA /* Debug */,
+				779C34D21E1E445E0079EBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779C34D31E1E445E0079EBDA /* Build configuration list for PBXNativeTarget "CoarseImitationNetEase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779C34D41E1E445E0079EBDA /* Debug */,
+				779C34D51E1E445E0079EBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779C34D61E1E445E0079EBDA /* Build configuration list for PBXNativeTarget "CoarseImitationNetEaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779C34D71E1E445E0079EBDA /* Debug */,
+				779C34D81E1E445E0079EBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779C34D91E1E445E0079EBDA /* Build configuration list for PBXNativeTarget "CoarseImitationNetEaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779C34DA1E1E445E0079EBDA /* Debug */,
+				779C34DB1E1E445E0079EBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 779C349E1E1E445E0079EBDA /* Project object */;
+}
